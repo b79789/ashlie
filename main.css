@@ -1,0 +1,37 @@
+h1{
+	color: #ff00cc;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+	
+}
+
+#home{
+	background-image: -webkit-linear-gradient(#bbb8ff 0%, #bf04fd 100%);
+}
+
+.header{
+	background-image: -webkit-radial-gradient(#fff 0%, #e5b0ff 100%);
+}
+
+.imageContainer {
+    position: relative;
+    width: 295px;
+    height: 350px;
+    
+}
+
+#pics{
+	background-image: -webkit-linear-gradient(#bbb8ff 0%, #bf04fd 100%);
+}
+
+#vids{
+	background-image: -webkit-linear-gradient(#bbb8ff 0%, #bf04fd 100%);
+}
+
+#everything{
+	background-image: -webkit-linear-gradient(#bbb8ff 0%, #bf04fd 100%);
+}
+
