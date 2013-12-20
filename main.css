@@ -20,7 +20,7 @@ h1{
     position: relative;
     width: 295px;
     height: 350px;
-    
+    float: left;
 }
 
 #pics{
@@ -33,5 +33,11 @@ h1{
 
 #everything{
 	background-image: -webkit-linear-gradient(#bbb8ff 0%, #bf04fd 100%);
+}
+
+img{
+	width: 300px;
+	height: 300px ;
+	vertical-align: middle;
 }
 

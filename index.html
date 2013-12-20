@@ -7,7 +7,9 @@
     <meta content="True" name="HandheldFriendly">
     <meta content="320" name="MobileOptimized">
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" />
-    <link rel="stylesheet" href="ashlie.css" />
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+	<link rel="stylesheet" href="ashlie.css" />
 	<link rel="stylesheet" href="jquery.mobile.icons.min.css" />
     <link href="main.css" rel="stylesheet">
     <title>Ashlie's App</title>
@@ -22,19 +24,15 @@
         	
         	<div class="imageContainer">
 				<img src="IMG.jpg" alt="Ashlie" height="100%" width="100%"/>	
-				<p>Ashlie's school pic</p>
 			</div>
 			<div class="imageContainer">
 				<img src="2.jpg" alt="Ashlie" height="100%" width="100%"/>	
-				<p>Ashlie's school pic</p>
 			</div>
 			<div class="imageContainer">
 				<img src="3.jpg" alt="Ashlie" height="100%" width="100%"/>	
-				<p>Ashlie's school pic</p>
 			</div>
 			<div class="imageContainer">
 				<img src="4.jpg" alt="Ashlie" height="100%" width="100%"/>	
-				<p>Ashlie's school pic</p>
 			</div>
 			
         </div><!-- content end-->
@@ -72,6 +70,50 @@
         </div><!-- header 1-->
         <div data-role="content">
         	<h1>Ashlie's Pictures</h1>
+        	<div data-role="content" data-theme="b">
+            <div class="ui-grid-b">
+                <div class="ui-block-a">
+                    <div class="ui-bar">
+                        <a  href="#pics"><img src=
+                        "1.jpg"></a>
+                    </div>
+                </div>
+
+                <div class="ui-block-b">
+                    <div class="ui-bar">
+                        <a href="#pics"><img src=
+                        "2.jpg"></a>
+                    </div>
+                </div>
+
+                <div class="ui-block-c">
+                    <div class="ui-bar">
+                        <a  href="#pics"><img src=
+                        "3.jpg"></a>
+                    </div>
+                </div>
+
+                <div class="ui-block-a">
+                    <div class="ui-bar">
+                        <a href="a#pics"><img src=
+                        "7.jpg"></a>
+                    </div>
+                </div>
+
+                <div class="ui-block-b">
+                    <div class="ui-bar">
+                        <a  href="#pics"><img src=
+                        "4.jpg"></a>
+                    </div>
+                </div>
+                <div class="ui-block-b">
+                    <div class="ui-bar">
+                        <a  href="#pics"><img src=
+                        "5.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- content -->
         </div><!-- content end-->
 		<div data-id="vs_footer" data-position="fixed" data-role="footer" class="footer"><!-- footer and nav bar -->
             <div data-role="navbar" data-theme="e">
@@ -107,6 +149,7 @@
         </div><!-- header 1-->
         <div data-role="content">
         	<h1>Ashlie's Video's</h1>
+        	<video id="sampleMovie" src="ashlie.mp4" controls preload autoplay width="600px" height="auto"></video>
         </div><!-- content end-->
 		<div data-id="vs_footer" data-position="fixed" data-role="footer" class="footer"><!-- footer and nav bar -->
             <div data-role="navbar" data-theme="e">
@@ -142,6 +185,21 @@
         </div><!-- header 1-->
         <div data-role="content">
         	<h1>Ashlie's Everything Else</h1>
+        	<section>
+        	<div class="imageContainer">
+				<img src="despicable.jpg" alt="minion" height="100%" width="100%"/>	
+			</div>
+        	</section>
+        	<section>
+			<div class="imageContainer">
+				<img src="loom.jpg" alt="loom" height="100%" width="100%"/>	
+			</div>
+        	</section>
+			<section>
+			<div class="imageContainer">
+				<img src="Minions.jpg" alt="despicable" height="100%" width="100%"/>	
+			</div>
+			</section>
         </div><!-- content end-->
 		<div data-id="vs_footer" data-position="fixed" data-role="footer" class="footer"><!-- footer and nav bar -->
             <div data-role="navbar" data-theme="e">
@@ -170,8 +228,6 @@
             </div><!-- navbar end -->
         </div><!-- footer end -->
 	</div> <!-- page end-->
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
 <script src="main.js" type="text/javascript"></script>
 </body>
 </html>

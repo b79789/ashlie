@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery 
+
+	cropToFit="true"
+	useFlickr="false"
+	resizeOnImport="true"
+	thumbPosition="BOTTOM"
+	thumbRows="1"
+	thumbColumns="6"
+	showOpenButton="true"
+	showFullscreenButton="true"
+
+>
+  <image imageURL="images/1.jpg"
+	thumbURL="thumbs/1.jpg"
+	linkURL="images/1.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2.jpg"
+	thumbURL="thumbs/2.jpg"
+	linkURL="images/2.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/3.jpg"
+	thumbURL="thumbs/3.jpg"
+	linkURL="images/3.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/4.jpg"
+	thumbURL="thumbs/4.jpg"
+	linkURL="images/4.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/5.jpg"
+	thumbURL="thumbs/5.jpg"
+	linkURL="images/5.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/6.jpg"
+	thumbURL="thumbs/6.jpg"
+	linkURL="images/6.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/7.jpg"
+	thumbURL="thumbs/7.jpg"
+	linkURL="images/7.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/8.jpg"
+	thumbURL="thumbs/8.jpg"
+	linkURL="images/8.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/9.jpg"
+	thumbURL="thumbs/9.jpg"
+	linkURL="images/9.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/10.jpg"
+	thumbURL="thumbs/10.jpg"
+	linkURL="images/10.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/11.jpg"
+	thumbURL="thumbs/11.jpg"
+	linkURL="images/11.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+</simpleviewergallery>
